@@ -1,0 +1,17 @@
+body{
+    background-color: #b5a789;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header{
+    background-color: #675c47;
+    color: #cdc2ad ;
+    font-size:150%;
+}
+#header p{
+    width: 350px;
+    float:right;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 1.1em;
+}
