@@ -11,6 +11,7 @@ h2{
     color: #cdc2ad ;
     font-size:150%;
     margin: 10px;
+    height: 108px;
 }
 #header p{
     width: 350px;
@@ -25,14 +26,22 @@ h2{
 #sidebar{
     padding: 15px;
     margin: 0px 10px 10px 10px;
+    position: absolute;
+    top: 128px;
+    right:0px;
     width: 280px;
-    float: right;
 }
 #main{
     padding: 15px;
-    margin: 10px;
     margin: 0px 330px 10px 10px;
 }
 #footer{
-    clear:right;
+    background-color: #675c47;
+    clear: left;
+}
+#allcontent{
+    width: 90%;
+    background-color: #b5a789;
+    margin-left: auto;
+    margin-right: auto;
 }
