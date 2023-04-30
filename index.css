@@ -2,16 +2,20 @@ body{
     background-color: #b5a789;
     font-size: small;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
-h2{
+
+h3{
     color:#954b4b;
+    text-transform: uppercase;
 }
+
 #header{
     background-color: #675c47;
     color: #cdc2ad ;
     font-size:150%;
-    margin: 10px;
     height: 108px;
+    margin: 10px 10px 0px 10px;
 }
 #header p{
     width: 350px;
@@ -20,28 +24,36 @@ h2{
     padding-right: 20px;
     line-height: 1.1em;
 }
-#main, #sidebar{
+#main, #sidebar, #drinks{
     background-color: #efe5d0;
 }
 #sidebar{
+    display: table-cell;
     padding: 15px;
-    margin: 0px 10px 10px 10px;
-    position: absolute;
-    top: 128px;
-    right:0px;
-    width: 280px;
+    vertical-align: top;
 }
 #main{
+    display: table-cell;
     padding: 15px;
-    margin: 0px 330px 10px 10px;
+    vertical-align: top;
+}
+#drinks{
+    display: table-cell;
+    padding: 15px 25px 15px 25px;
+    vertical-align: top;
 }
 #footer{
     background-color: #675c47;
-    clear: left;
+    margin: 0px 10px 10px 10px;
 }
+
 #allcontent{
-    width: 90%;
     background-color: #b5a789;
-    margin-left: auto;
-    margin-right: auto;
+}
+#tableConteiner{
+    display: table;
+    border-spacing: 10px;
+}
+#tableRow{
+    display: table-row;
 }
