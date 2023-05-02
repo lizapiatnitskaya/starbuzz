@@ -29,22 +29,29 @@ h3{
 }
 #sidebar{
     display: table-cell;
+    width: 35%;
     padding: 15px;
     vertical-align: top;
 }
 #main{
     display: table-cell;
+    width:45% ;
     padding: 15px;
     vertical-align: top;
 }
 #drinks{
     display: table-cell;
+    width: 20%;
     padding: 15px 25px 15px 25px;
     vertical-align: top;
 }
 #footer{
     background-color: #675c47;
     margin: 0px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+    font-size:90%;
+    color: #efe5d0;
 }
 
 #allcontent{
@@ -56,4 +63,17 @@ h3{
 }
 #tableRow{
     display: table-row;
+}
+#award{
+    position: absolute;
+    top:30px;
+    left:365px;
+}
+#coupon{
+    position: fixed;
+    top:350px;
+    left:-90px;
+}
+#coupon a, img{
+    border:none;
 }
