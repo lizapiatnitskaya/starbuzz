@@ -10,24 +10,24 @@ h3{
     text-transform: uppercase;
 }
 
-#header{
+header{
     background-color: #675c47;
     color: #cdc2ad ;
     font-size:150%;
     height: 108px;
     margin: 10px 10px 0px 10px;
 }
-#header p{
+header p{
     width: 350px;
     float:right;
     text-align: right;
     padding-right: 20px;
     line-height: 1.1em;
 }
-#main, #sidebar, #drinks{
+#main, aside, #drinks{
     background-color: #efe5d0;
 }
-#sidebar{
+aside{
     display: table-cell;
     width: 35%;
     padding: 15px;
@@ -45,7 +45,7 @@ h3{
     padding: 15px 25px 15px 25px;
     vertical-align: top;
 }
-#footer{
+footer{
     background-color: #675c47;
     margin: 0px 10px 10px 10px;
     padding: 10px;
