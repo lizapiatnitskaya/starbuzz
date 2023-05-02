@@ -24,7 +24,7 @@ header p{
     padding-right: 20px;
     line-height: 1.1em;
 }
-#main, aside, #drinks{
+#main, #blog, aside, #drinks{
     background-color: #efe5d0;
 }
 aside{
@@ -33,7 +33,7 @@ aside{
     padding: 15px;
     vertical-align: top;
 }
-#main{
+#main, #blog{
     display: table-cell;
     width:45% ;
     padding: 15px;
@@ -67,7 +67,7 @@ footer{
 #award{
     position: absolute;
     top:30px;
-    left:365px;
+    left:465px;
 }
 #coupon{
     position: fixed;
@@ -76,4 +76,24 @@ footer{
 }
 #coupon a, img{
     border:none;
+}
+nav{
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+nav ul{
+    margin:0px;
+    list-style-type:none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: #675c47;
+    font-weight: bold;
+    border-bottom: none;
+    text-decoration: none;
+    text-transform: uppercase;
 }
