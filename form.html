@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="utf-8">
+         <title>Форма для заказа</title>
+         <link type="text/css" rel="stylesheet" href="index.css">    
+    </head>
+    <body>
+        <div id="formheader">
+             <h3>STARBUZZ BEAN MACHINE</h3>
+             <p>Заполните следующую форму и нажмите кнопку Отправить, чтобы оформить заказ</p>
+        </div>
+        <form>
+        <p>Выберите кофе:
+            <select name="coffeefrom">
+                <option value="Дом">Домашняя смесь</option>
+                <option value="Боливия">Боливия</option>
+                <option value="Гватемала">Гватемала</option>
+                <option value="Кения">Кения</option>
+            </select>
+        </p>
+        <p>Тип:
+             <input type="radio" name="coffeetype" value="Зерновой">Зерновой
+             <input type="radio" checked="checked" name="coffeetype" value="Молотый">Молотый
+        </p>
+        <p>Дополнительные услуги:
+            <input type="checkbox" name="addition" value="Упаковка">Подарочная упаковка
+            <input type="checkbox" name="addition" value="Доставка">Доставка каталога вместе с заказом
+        </p>
+        <p>Доставка по адресу:
+            Имя:<input type="text" name="name"/></br>
+            Адрес:<input type="text" name="adress"/></br>
+            Город:<input type="text" name="town"/></br>
+            Страна:<input type="text" name="country"/></br>
+            Индекс:<input type="text" name="index"/></br>
+            Телефон:<input type="text" name="tel"/>
+        </p>
+        <p>Комментарии к заказу:
+            <textarea name="comments" rows="10" cols="48"></textarea>
+        </p>
+        <p>
+            <input type="submit"/>
+        </p>
+      </form>
+    </body>
+</html>

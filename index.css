@@ -97,3 +97,13 @@ nav ul li a:link, nav ul li a:visited{
     text-decoration: none;
     text-transform: uppercase;
 }
+form{
+    width: 800px;
+    text-align: center;
+    border: thin solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+#formheader{
+    text-align: center;
+}
