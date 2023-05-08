@@ -99,11 +99,32 @@ nav ul li a:link, nav ul li a:visited{
 }
 form{
     width: 800px;
+    display: table;
+    background-color: #e1ceb8;;
+    border-spacing: 10px;
     text-align: center;
     border: thin solid black;
     margin-left:auto;
     margin-right:auto;
+    padding: 10px;
 }
 #formheader{
     text-align: center;
+}
+.tableRow{
+    display: table-row;
+}
+.tableRow p{
+    display: table-cell;
+    vertical-align: top;
+}
+.tableRow p:first-child{
+    text-align: right;
+    font-weight: bold;
+}
+.tableRow p:nth-child(2n){
+    text-align: left;
+}
+.tableRow p.heading{
+    font-weight: lighter;
 }

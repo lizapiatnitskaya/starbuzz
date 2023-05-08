@@ -11,7 +11,9 @@
              <p>Заполните следующую форму и нажмите кнопку Отправить, чтобы оформить заказ</p>
         </div>
         <form>
-        <p>Выберите кофе:
+        <div class="tableRow">
+           <p> Выберите кофе:</p>
+        <p>
             <select name="coffeefrom">
                 <option value="Дом">Домашняя смесь</option>
                 <option value="Боливия">Боливия</option>
@@ -19,28 +21,77 @@
                 <option value="Кения">Кения</option>
             </select>
         </p>
-        <p>Тип:
-             <input type="radio" name="coffeetype" value="Зерновой">Зерновой
-             <input type="radio" checked="checked" name="coffeetype" value="Молотый">Молотый
+        </div>
+        <div class="tableRow">
+        <p>Тип:</p>
+        <p>
+             <input type="radio" name="coffeetype" value="Зерновой">
+             <label for="Зерновой">Зерновой</label></br>
+             <input type="radio" checked="checked" name="coffeetype" value="Молотый">
+             <label for="Молотый">Молотый</label>
         </p>
-        <p>Дополнительные услуги:
-            <input type="checkbox" name="addition" value="Упаковка">Подарочная упаковка
-            <input type="checkbox" name="addition" value="Доставка">Доставка каталога вместе с заказом
+        </div>
+        <div class="tableRow">
+        <p> Количество пакетиков:</p>
+        <p>
+            <input type="number" name="bags" min="1" max="10">
         </p>
-        <p>Доставка по адресу:
-            Имя:<input type="text" name="name"/></br>
-            Адрес:<input type="text" name="adress"/></br>
-            Город:<input type="text" name="town"/></br>
-            Страна:<input type="text" name="country"/></br>
-            Индекс:<input type="text" name="index"/></br>
-            Телефон:<input type="text" name="tel"/>
+        </div>
+        <div class="tableRow">
+        <p>Дополнительные услуги:</p>
+        <p>
+            <input type="checkbox" name="addition[]" value="Упаковка">
+            <label for="Упаковка">Подарочная упаковка</label></br>
+            <input type="checkbox" name="addition[]" value="Доставка">
+            <label fot="Доставка">Доставка каталога вместе с заказом</label>
         </p>
-        <p>Комментарии к заказу:
+        </div>
+        <div class="tableRow">
+        <p>Доставка по адресу:</p>
+        <p></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Имя:</p>
+        <p><input type="text" name="name" required/></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Адрес:</p>
+        <p><input type="text" name="adress"/></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Город:</p>
+        <p><input type="text" name="town"/></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Страна:</p>
+        <p><input type="text" name="country"/></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Индекс:</p>
+        <p><input type="text" name="zip"/></p>
+        </div>
+        <div class="tableRow">
+        <p class="heading">Телефон:</p>
+        <p><input type="tel" placeholder="+375(29)111-22-33" name="tel"/></p>
+        </div>
+        <div class="tableRow">
+        <p>Доставить к</p>
+        <p>
+            <input type="date" name="date">
+        </p>
+        </div>
+        <div class="tableRow">
+        <p>Комментарии к заказу:</p>
+        <p>
             <textarea name="comments" rows="10" cols="48"></textarea>
         </p>
+        </div>
+        <div class="tableRow">
+        <p></p>
         <p>
             <input type="submit"/>
         </p>
+        </div>
       </form>
     </body>
 </html>
